@@ -1,0 +1,67 @@
+#firstDiv,#secondDiv{
+	padding:0px;
+	width:50%;
+	
+}
+
+#imageMovie{
+	position: absolute;
+	top: 15%;
+	left:55%;
+	/*width: 30%;*/
+	max-height:60%;
+	box-shadow:10px 10px 5px #3e6774;
+}
+
+.titleKeyInfo{
+	font-weight:bold;
+}
+
+#backSearch{
+	margin-top:5%;
+	border-radius: 4px;
+	color: white;
+	background-color: #3e6774;
+	border:none;
+	padding:15px;
+	font-size:110%;
+}
+
+.stars{/*einai olo to div pou exei imdbRating,number,stars*/
+	position: absolute;
+	top: 75%;
+	width:400px;
+	left:55%;
+	/*width: 30%;*/
+	max-height:60%;
+	
+}
+
+    .star {
+       font-size: x-large;
+       width: 70px;
+       display: inline-block;
+       color: #3e6774;/*skouro*/
+    }
+    .star:last-child {
+        margin-right: 0;
+    }
+    .star:before {
+	/*https://www.toptal.com/designers/htmlarrows/symbols/outlined-black-star/*/
+        content: '\272E'; /*symbol*/
+    }
+    .star.on {
+        color: #CE6454;/*korali*/
+	text-shadow: 0 0 15px;
+    }
+    .star.half:after {
+	/*https://www.toptal.com/designers/htmlarrows/symbols/black-star/*/
+        content: '\2605'; /*symbol*//*to miso asteri exei,gemismeno asteri gia na fainetai kalutera*/
+        
+	color: #CE6454;
+        margin-left: -20px;
+        width: 10px;
+        position: absolute;
+        overflow: hidden;
+    }
+
